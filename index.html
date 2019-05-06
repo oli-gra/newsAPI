@@ -5,9 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- bootstrap here, i surrendered -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
   <script defer src="articles.js"></script>
   <script defer src="index.js"></script>
@@ -15,27 +14,39 @@
   <title>Create your own fake news!</title>
 </head>
 
-<header>
-  <h1>BEHOLD THE NEWS AGGREGATED</h1>
-</header>
 
-<body>
-  
-  <div id="news-container">
+<body>    
+
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo">FAKENEWS INC</a>
+        <ul class="uk-navbar-nav">
+          <li class="uk-parent"><a href="">Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="body-wrapper">
+    <div id="news-container" class="uk-container">
+      
+    </div>
+
+    <div id="user-panel">
+      <h4 id="username">Xavier Pryce</h4>
+      <h5 id="user-city">Liverpool</h5>
+      <p id="user-desc">Traveler/entrepeneur. Lover of the outdoors. Very active. Progressive. He/him.</p>
+      <img src="https://www.designskilz.com/random-users/images/imageF35.jpg" width="200px" height="200px">
+    </div>
+      
+  </div>
+      
+
+  <footer>
+      <!-- <h6>All rights reserved Oli + D</h6> -->
+  </footer>
     
-  </div>
-
-  <div id="user-panel">
-    <h4 id="username">Xavier Pryce</h4>
-    <h5 id="user-city">Liverpool</h5>
-    <p id="user-desc">Traveler/entrepeneur. Lover of the outdoors. Very active. Progressive. He/him.</p>
-    <img src="https://www.designskilz.com/random-users/images/imageF35.jpg" width="200px" height="200px">
-  </div>
-
 </body>
-
-<footer>
-  <!-- <h6>All rights reserved Oli + D</h6> -->
-</footer>
 
 </html>

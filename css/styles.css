@@ -1,0 +1,8 @@
+#news-container {
+  /* max-width: 66%; */
+  width: 50%;
+}
+
+#user-panel {
+  float: right;
+}
