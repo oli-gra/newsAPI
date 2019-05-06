@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  new: one
+  user: one
+  like: false
+  report: false
+  alt_headline: MyString
+
+two:
+  new: two
+  user: two
+  like: false
+  report: false
+  alt_headline: MyString
