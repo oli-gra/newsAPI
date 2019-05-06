@@ -1,0 +1,29 @@
+#news-container {
+  width: 60%;
+  float: left;
+  display: block;
+}
+
+#user-panel {
+  width: 30%;
+  float: right;
+}
+
+body {
+  padding-top: 70px;
+}
+
+header {
+  top: 0px;
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  bottom: 0px;
+  background-color: white;
+  position: fixed;
+  width: 100%; 
+}
