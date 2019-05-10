@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'users/:id', to: 'users#show'
-  post 'users', to: 'users#create'
+  post 'users', to: 'users#login'
 
   get 'news', to: 'news#index'
   get 'news/meta', to: 'news#meta'
